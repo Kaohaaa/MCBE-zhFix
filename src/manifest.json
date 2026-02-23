@@ -1,46 +1,45 @@
 {
-   "format_version" : 2,
-   "header" : {
-      "description" : "options.languageWarning",
-      "name" : "BE中文修正(2026-2-16) - 繁繁芙芙",
-      "platform_locked" : false,
-      "uuid" : "97b47f8f-8893-40a8-9adb-459853c09395",
-      "version" : [ 0, 0, 1 ],
-      "min_engine_version" : [ 1, 15, 0 ]
-       },
-   "modules" : [
-      {
-         "description" : "Win32.Netease.OGL.No.Launch.Release2019_5_17_v1.13.0.64067",
-         "type" : "resources",
-         "uuid" : "a8be8098-fa11-4ac1-9d48-146c33bf158b",
-         "version" : [ 1, 18, 0 ]
-      }
+    "format_version":2,
+    "header":{
+        "description":"options.languageWarning",
+        "name":"BE中文修正(2026-2-16) - 繁繁芙芙",
+        "platform_locked":false,
+        "uuid":"97b47f8f-8893-40a8-9adb-459853c09395",
+        "version":[0, 0, 1],
+        "min_engine_version" :[1, 15, 0]
+    },
+    "modules":[
+            {
+                "description" : "Win32.Netease.OGL.No.Launch.Release2019_5_17_v1.13.0.64067",
+                "type":"resources",
+                "uuid":"a8be8098-fa11-4ac1-9d48-146c33bf158b",
+                "version":[ 1, 18, 0 ]
+            }
     ],
-        "subpacks": [
+    "subpacks":[
         {
-            "folder_name": "UnicodeFont",
-            "name": "options.forceUnicodeFont",
-            "memory_tier": 1
+            "folder_name":"UnicodeFont",
+            "name":"options.forceUnicodeFont",
+            "memory_tier":1
         },
         {
-            "folder_name": "Default",
-            "name": "gui.default",
-            "memory_tier": 1
+            "folder_name":"Default",
+            "name":"gui.default",
+            "memory_tier":1
         }
-     ],
-         "settings": [
+    ],
+    "settings":[
         {
-            "type": "label",
-            "text": "启用此包后，请前往语言設置更改语言"
+            "type":"label",
+            "text":"启用此包后，请前往语言設置更改语言"
         },
         {
-            "type": "label",
-            "text": "@bilibili 繁繁芙芙"
+            "type":"label",
+            "text":"@bilibili 繁繁芙芙"
         },
         {
-            "type": "label",
-            "text": "zh_hant_Furina"
+            "type":"label",
+            "text":"zh_hant_Furina"
         }
-     ]
-  }
+    ]
 }
